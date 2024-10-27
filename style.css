@@ -13,34 +13,31 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #4ec688; 
 }
+body{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
 nav{
-  
   position:fixed;
-  top:0px;
-  right:40px;
-  
-  height: 100px;
-  line-height: 90px;
+  left:0px;
+  top:0px;  
+  height: 90px;
+  line-height: 80px;
+  background-image: linear-gradient(rgb(9, 57, 40),rgb(11, 103, 60));
+  width:100%;
+  color:rgb(255, 255, 255);
+  text-align:center;
 }
 area:hover{
   background-color: rgb(166, 240, 229);
 }
+a{
+  color:rgb(255, 255, 255);
+}
 a:hover{
-  color:rgb(213, 255, 218);
+  color:#a1ffce
+}
+#sub{
+  color:#cdcfce;
 }
 
-
-
-
-
-
-
-.nav-fixed {
-   
-   background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0.655) 70%,#ffffff77); /* background when scroll is in the top */
-   transition: background .5s; /* control how smooth the background changes */
-}
-.nav-active {
-    background-color:#ff0e0e;
-    box-shadow: 5px -1px 12px -5px grey;
-}
